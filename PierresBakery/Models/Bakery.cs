@@ -55,8 +55,10 @@ namespace PierresBakery.Models
       Pastry oPastry = new Pastry();
       oPastry.numOfPastry = numOfPastry;
       Console.WriteLine("Total Cost of Pastries: ");
-
+      Console.WriteLine(oPastry.PastryCost());
       
+
+
 
     }
   }
