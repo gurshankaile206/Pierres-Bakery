@@ -11,6 +11,14 @@ namespace PierresBakery.Models
     }
   }
 
+  public class Pastry
+  {
+    public int PastryCost()
+    {
+      
+    }
+  }
+
   public class Bake
   {
     static void Main(string[] args)
