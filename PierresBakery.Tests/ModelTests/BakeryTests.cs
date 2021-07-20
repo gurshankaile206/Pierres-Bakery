@@ -4,8 +4,8 @@ using PierresBakery.Models;
 namespace ProjectName.Tests
 {
   [TestClass]
-  public class BakeTests
+  public class BreadTests
   {
-    // Test methods go here
+    
   }
 }
