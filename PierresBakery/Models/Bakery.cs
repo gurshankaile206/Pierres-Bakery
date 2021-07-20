@@ -52,6 +52,11 @@ namespace PierresBakery.Models
       Console.WriteLine("Enter in the number the loafs of bread you would like.");
       int numOfBread = int.Parse(Console.ReadLine());
 
+      Pastry oPastry = new Pastry();
+      oPastry.numOfPastry = numOfPastry;
+      Console.WriteLine("Total Cost of Pastries: ");
+
+      
 
     }
   }
