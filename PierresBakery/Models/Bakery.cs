@@ -15,7 +15,7 @@ namespace PierresBakery.Models
   {
     public int PastryCost()
     {
-      
+
     }
   }
 
@@ -27,6 +27,9 @@ namespace PierresBakery.Models
       Console.WriteLine("We're offering the following deals today!");
       Console.WriteLine("Bread: buy 2, get 1 free. A single loaf costs $5");
       Console.WriteLine("Pastry: Buy 1 for $2 or 3 for $5");
+      Console.WriteLine("Enter in the number of pastries you would like to order!");
+      int numOfPastry = int.Parse(Console.ReadLine());
+
     }
   }
 }
