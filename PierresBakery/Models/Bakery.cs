@@ -9,18 +9,33 @@ namespace PierresBakery.Models
     int Cost = 5;
     public int BreadCost()
     {
-      
+      if (numOfBread == 3)
+      {
+        return 10; 
+      }
+      return Cost * numOfBread;
     }
   }
 
   public class Pastry
   {
 
-    int Cost = 2; 
+    
     public int numOfPastry { get; set; }
+
+    int Cost = 2; 
     public int PastryCost()
     {
-
+      if (numOfPastry == 3)
+      {
+        return 5;
+      } else if (numOfPastry == 1)
+      {
+        return 2;
+      } else
+      {
+        return numOfPastry * Cost;
+      }
     }
   }
 
