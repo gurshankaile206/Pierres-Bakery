@@ -29,6 +29,9 @@ namespace PierresBakery.Models
       Console.WriteLine("Pastry: Buy 1 for $2 or 3 for $5");
       Console.WriteLine("Enter in the number of pastries you would like to order!");
       int numOfPastry = int.Parse(Console.ReadLine());
+      Console.WriteLine("Enter in the number the loafs of bread you would like.");
+      int numOfPastry = int.Parse(Console.ReadLine());
+      
 
     }
   }
