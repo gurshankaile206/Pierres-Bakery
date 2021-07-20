@@ -4,7 +4,7 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-   
+    public int numOfBread { get; set; }
     public int BreadCost()
     {
       
@@ -30,8 +30,8 @@ namespace PierresBakery.Models
       Console.WriteLine("Enter in the number of pastries you would like to order!");
       int numOfPastry = int.Parse(Console.ReadLine());
       Console.WriteLine("Enter in the number the loafs of bread you would like.");
-      int numOfPastry = int.Parse(Console.ReadLine());
-      
+      int numOfBread = int.Parse(Console.ReadLine());
+
 
     }
   }
