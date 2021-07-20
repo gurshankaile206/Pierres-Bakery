@@ -56,6 +56,12 @@ namespace PierresBakery.Models
       oPastry.numOfPastry = numOfPastry;
       Console.WriteLine("Total Cost of Pastries: ");
       Console.WriteLine(oPastry.PastryCost());
+
+      Bread oBread = new Bread();
+      oBread.numOfBread = numOfBread;
+      Console.WriteLine("Total Cost of Bread: ");
+      Console.WriteLine(oBread.BreadCost());
+
       
 
 
