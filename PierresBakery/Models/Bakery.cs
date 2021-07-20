@@ -13,6 +13,7 @@ namespace PierresBakery.Models
 
   public class Pastry
   {
+    public int numOfPastry { get; set; }
     public int PastryCost()
     {
 
