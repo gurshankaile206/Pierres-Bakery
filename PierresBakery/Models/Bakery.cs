@@ -5,6 +5,8 @@ namespace PierresBakery.Models
   public class Bread
   {
     public int numOfBread { get; set; }
+
+    int Cost = 5;
     public int BreadCost()
     {
       
