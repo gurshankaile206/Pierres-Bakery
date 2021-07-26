@@ -62,7 +62,6 @@ namespace PierresBakery.Tests
       oPastry.numOfPastry = numOfPastry;
       Assert.AreEqual(oPastry.PastryCost(), 5);
     }
-
   }
 
 
