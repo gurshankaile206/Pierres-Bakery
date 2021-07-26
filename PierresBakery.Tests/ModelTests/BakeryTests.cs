@@ -34,9 +34,16 @@ namespace PierresBakery.Tests
       Assert.AreEqual(oBread.BreadCost(), Cost);
 
     }
+
+    [TestMethod]
+    public void BreadCost_DeterminesDiscountedCostOfBread_Int()
+    {
+      Bread oBread = new Bread();
+      int numOfBread = 9;
+      oBread.numOfBread = numOfBread;
+      Assert.AreEqual(oBread.BreadCost(), 30);
+    }
   }
-
-
 
 
 

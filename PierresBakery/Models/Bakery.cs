@@ -7,14 +7,18 @@ namespace PierresBakery.Models
   {
     public int numOfBread { get; set; }
 
+    public int totalCost { get; set; }
     int Cost = 5;
+
     public int BreadCost()
     {
-      if (numOfBread == 3)
+      if (numOfBread > 2)
       {
-        return 10; 
+        totalCost = ((numOfBread / 3) * 10) + ((numOfBread % 3) * Cost);
+        return totalCost;
       }
-      return Cost * numOfBread;
+      totalCost = numOfBread * 5;
+      return totalCost;
     }
   }
 
