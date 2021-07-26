@@ -54,6 +54,15 @@ namespace PierresBakery.Tests
       Assert.AreEqual(oPastry.PastryCost(), Cost);
     }
 
+    [TestMethod]
+    public void PastryCost_DeterminesDiscountedCostOfPastry_Int()
+    {
+      Pastry oPastry = new Pastry();
+      int numOfPastry = 3;
+      oPastry.numOfPastry = numOfPastry;
+      Assert.AreEqual(oPastry.PastryCost(), 5);
+    }
+
   }
 
 
