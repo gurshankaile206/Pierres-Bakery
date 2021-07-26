@@ -22,6 +22,18 @@ namespace PierresBakery.Tests
       Pastry newPastry = new Pastry();
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
+
+    [TestMethod]
+    public void BreadCost_DeterminesRegularCostOfBread_Int()
+    {
+      
+      Bread oBread = new Bread();
+      int numOfBread = 1;
+      int Cost = 5;
+      oBread.numOfBread = numOfBread;
+      Assert.AreEqual(oBread.BreadCost(), Cost);
+
+    }
   }
 
 
